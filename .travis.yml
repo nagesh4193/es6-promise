@@ -1,9 +1,15 @@
 language: node_js
 node_js:
+  - "14"
+  - "12"
+  - "10"
   - "9"
   - "8"
   - "6"
-  - "4"
+  
+arch:
+  - amd64
+  - ppc64le
 
 before_install:
   - nvm install 6
